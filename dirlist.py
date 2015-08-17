@@ -25,3 +25,5 @@ for dirname, dirnames, filenames in os.walk(r'\\red\projects\0\0497120\CAD'):
     if 'County' not in dirnames:
         # don't go into any .git directories.
         dirnames.remove('.git')
+
+        this shouldn't be here
